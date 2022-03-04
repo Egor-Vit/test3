@@ -21,9 +21,15 @@ namespace test3
             string minus;
             string um;
             string del;
+
             if (X == "+")
             {
                 int C = A + B;
+                Console.WriteLine("Ответ:" + C);
+            }
+            else if (X == "-")
+            {
+                int C = A - B;
                 Console.WriteLine("Ответ:" + C);
             }
         }
