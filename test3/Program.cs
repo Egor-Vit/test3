@@ -37,6 +37,11 @@ namespace test3
                 int C = A * B;
                 Console.WriteLine("Ответ:" + C);
             }
+            else if (X == "/")
+            {
+                int C = A / B;
+                Console.WriteLine("Ответ:" + C);
+            }
         }
     }
 }
